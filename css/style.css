@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+.header {
+  height: 9vh; }
+
+.changeBot {
+  height: 10vh; }
+
+.chatRoom {
+  height: 75vh; }
+
+.form {
+  height: 6vh; }
+
+.changeBot img {
+  width: 90px;
+  height: 90px;
+  background: #000;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px 10px; }
+
+.chatRoom {
+  overflow-Y: scroll; }
+
+.form {
+  padding-top: 10px; }
+  .form input {
+    width: 90vw; }
+  .form button {
+    float: right; }
+
+.msgBox {
+  max-width: 40vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 0;
+  color: white; }
+  .msgBox .avatar {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 0;
+    display: inline-block; }
+
+.myAvatar {
+  background-image: url("../img/avatars/my.png");
+  background-size: cover; }
+  .myAvatar .msg {
+    display: block; }
+  .myAvatar .nickname {
+    font-weight: bold;
+    text-align: right;
+    display: inline-block; }
+  .myAvatar .time {
+    display: block; }
+
+.myMessage {
+  background: #10aa55; }
+
+.botMessage {
+  background: #1055aa; }
+
+#r2d2 {
+  background-image: url("../img/avatars/r2d2.jpg");
+  background-size: cover; }
+
+#kenny {
+  background-image: url("../img/avatars/kenny.jpg");
+  background-size: cover; }
+
+#groot {
+  background-image: url("../img/avatars/grut.jpg");
+  background-size: cover; }
+
+#hodor {
+  background-image: url("../img/avatars/hodor.jpg");
+  background-size: cover; }
+
+/*# sourceMappingURL=style.css.map */
